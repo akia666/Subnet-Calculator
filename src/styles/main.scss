@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 :root {
   --color-primary: #006cbb;
 
@@ -7,6 +9,20 @@
 
   --color-success: #01bd78;
   --color-error: #d40019;
+
+  --retro-green: #b8d99a;
+  --retro-green-dark: #8cc46f;
+  --retro-border: #5a7f45;
+  --retro-shadow: #3f5f2e;
+  --retro-text: #3a5a2e;
+  --retro-text-secondary: #6b7f5a;
+  --retro-bg: #ffffff;
+  --retro-bg-secondary: #fef5dc;
+  --retro-bg-secondary-hover: #f0e6c5;
+  --retro-disabled: #cccccc;
+  --retro-focus: #b8d99a;
+
+  --retro-bg-site: #D8ECC6;
 }
 
 * {
@@ -37,6 +53,7 @@ body {
   margin: 0;
   font-size: 1rem;
   line-height: 1.5;
+  background-color: var(--retro-bg-site);
 }
 
 a {
@@ -67,3 +84,8 @@ img {
   height: auto;
   pointer-events: none;
 }
+
+@import 'retro-components-akia/dist/UiField/UiField.css';
+@import 'retro-components-akia/dist/UiInput/UiInput.css';
+@import 'retro-components-akia/dist/UiSelect/UiSelect.css';
+@import 'retro-components-akia/dist/UiButton/UiButton.css';
